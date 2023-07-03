@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detect And Predict Crime</title>
+  <style>
+    ul.navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: red;
+      text-align: right;
+      font-size: 25px;
+    }
+
+    ul.navbar li {
+      display: inline-block;
+    }
+
+    ul.navbar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    ul.navbar li a:hover {
+      background-color: #111;
+      color: white;
+    }
+
+    body {
+      background-image: url('https://img.freepik.com/free-photo/grunge-scratched-cracked-texture-background_1048-15879.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      font-family: 'Arial', sans-serif;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-family: 'Impact', sans-serif;
+      color: yellow;
+      font-weight: lighter;
+      margin-top: 50px;
+    }
+
+    p {
+      font-size: 24px;
+      font-family: 'Verdana', sans-serif;
+      color: white;
+      margin-top: 30px;
+    }
+
+
+    .image-container {
+      position: absolute;
+      top: 100px;
+      left: 30px;
+      width: 40%;
+      height: 75vh;
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtAOJy8AHO1iMOY6OWpIrRyzZWM3f18z0zpA&usqp=CAU');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .content-container {
+      position: absolute;
+      top: 350;
+      right: 30px;
+      width: 45%;
+      height: 75vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+    }
+  </style>
+</head>
+<body>
+  <ul class="navbar">
+       <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/prediction">Predict</a>
+                    </li>
+  </ul>
+  <div class="image-container"></div>
+  <div class="content-container">
+    <h1 style="color: yellow; font-size: 50px;">Crime Detection</h1>
+    <p style="font-size: 36px;">Crime is increasing in India at an alarming rate. With the help of Artificial Intelligence, we can efficiently detect and classify crimes directly from CCTV footage</p>
+
+
+  </div>
+</body>
+</html>
